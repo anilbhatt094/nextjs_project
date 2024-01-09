@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*start here color theme*/
+.text-color-ffffff {
+  color: #ffffff;
+}
+
+.text-color-008089 {
+  color: #146EB4;
+}
+
+.text-color-1E2640 {
+  color: #1E2640;
+}
+
+.text-color-D9D9D9 {
+  color: #D9D9D9;
+}
+
+.bg-color-ffffff {
+  background-color: #ffffff;
+}
+
+.bg-color-008089 {
+  background-color: #146EB4;
+}
+
+.bg-color-1E2640 {
+  background-color: #1E2640;
+}
+
+.bg-color-D9D9D9 {
+  background-color: #D9D9D9;
+}
+
+/*end here color theme*/
+/*Start here position css*/
+.positionRelative {
+  position: relative;
+}
+
+/*End here position css*/
+/*Start here display Css*/
+.dFlex {
+  display: flex;
+}
+
+/*End here display Css*/
+/*Start here padding css*/
+.py16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.px10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*end here padding css*/
+/*Start here width css*/
+.w100 {
+  width: 100%;
+}
+
+/*End here width css*/
+/*start here container css*/
+.container {
+  padding: 12px 32px;
+}
+
+/*end here container css*/
+header {
+  border-bottom: 1px solid #D9D9D9;
+}
+header .headerpayment-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .headerpayment-box p {
+  font-size: 15px;
+  color: #1A181E;
+}
+header .headerpayment-box a {
+  font-size: 12px;
+  color: #4D4D4D;
+  display: flex;
+  align-items: center;
+}
+header .headerpayment-box a img {
+  margin-right: 6px;
+}
+header .headerSearch form input {
+  width: 100%;
+  padding: 9px 16px 9px 40px;
+  background-color: #F2F2F2;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #000000;
+}
+header .headerSearch form input::placeholder {
+  color: #808080;
+}
+header .headerSearch form img {
+  position: absolute;
+  left: 16px;
+  top: 13px;
+}
+header .headerMsgarrow {
+  display: flex;
+  justify-content: end;
+}
+header .headerMsgarrow ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+header .headerMsgarrow ul li {
+  background-color: #E6E6E6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

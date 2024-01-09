@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*start here color theme*/
+.text-color-ffffff {
+  color: #ffffff;
+}
+
+.text-color-008089 {
+  color: #146EB4;
+}
+
+.text-color-1E2640 {
+  color: #1E2640;
+}
+
+.text-color-D9D9D9 {
+  color: #D9D9D9;
+}
+
+.bg-color-ffffff {
+  background-color: #ffffff;
+}
+
+.bg-color-008089 {
+  background-color: #146EB4;
+}
+
+.bg-color-1E2640 {
+  background-color: #1E2640;
+}
+
+.bg-color-D9D9D9 {
+  background-color: #D9D9D9;
+}
+
+/*end here color theme*/
+/*Start here position css*/
+.positionRelative {
+  position: relative;
+}
+
+/*End here position css*/
+/*Start here display Css*/
+.dFlex {
+  display: flex;
+}
+
+/*End here display Css*/
+/*Start here padding css*/
+.py16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.px10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*end here padding css*/
+/*Start here width css*/
+.w100 {
+  width: 100%;
+}
+
+/*End here width css*/
+/*start here container css*/
+.container {
+  padding: 12px 32px;
+}
+
+/*end here container css*/
+.sidebarSec {
+  width: 224px;
+  height: 100vh;
+}
+.sidebarSec .logo-sec img {
+  width: 39px;
+  height: 39px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.sidebarSec .logo-sec .logoText p {
+  font-size: 15px;
+  display: block;
+}
+.sidebarSec .logo-sec .logoText a {
+  font-size: 13px;
+}
+.sidebarSec .logo-sec .logoText svg {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.menunavbar {
+  margin-top: 25px;
+}
+.menunavbar ul {
+  padding-left: 0;
+  list-style: none;
+}
+.menunavbar ul li {
+  padding: 10px 16px;
+}
+.menunavbar ul li img {
+  margin-right: 12px;
+}
+.menunavbar ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.menunavbar ul li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.menunavbar ul li.active {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.walletBox {
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  position: absolute;
+  bottom: 16px;
+  left: 10px;
+  right: 10px;
+}
+.walletBox img {
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.walletBox p {
+  font-size: 13px;
+  margin-left: 12px;
+}
+.walletBox p span {
+  display: block;
+  font-size: 16px;
+}

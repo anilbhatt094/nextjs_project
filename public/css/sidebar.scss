@@ -1,0 +1,78 @@
+@import "./specific";
+.sidebarSec{
+    width: 224px;
+    height: 100vh;
+.logo-sec{
+    img{
+        width: 39px;
+        height:39px;
+        border-radius: 4px;
+        margin-right: 12px;
+    }
+    .logoText{
+        
+        p{
+        font-size: 15px;
+        display: block;
+    }
+    a{
+        font-size: 13px;
+    }
+    svg{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+}
+}
+}
+.menunavbar{
+    margin-top: 25px;
+    ul{
+        padding-left: 0;
+        list-style: none;
+        li{
+            padding: 10px 16px;
+            img{
+                margin-right: 12px;
+            }
+            a{
+                color: #ffffff;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+            }
+            &:hover{
+                background: rgba(255, 255, 255, 0.10);
+                border-radius: 4px;
+            }
+            &.active{
+                background: rgba(255, 255, 255, 0.10);
+                border-radius: 4px; 
+            }
+        }
+    }
+}
+.walletBox{
+    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 4px;
+    position: absolute;
+    bottom: 16px;
+    left: 10px;
+    right: 10px;
+    
+    img{
+        padding: 6px;
+        background: rgba(255, 255, 255, 0.10);
+    }
+    p{
+        font-size: 13px;
+        margin-left: 12px;
+        span{
+            display: block;
+            font-size: 16px;
+        }
+    }
+}
