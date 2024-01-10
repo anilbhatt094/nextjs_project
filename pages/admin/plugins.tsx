@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../../components/Header";
-import Sidebar from "../../components/Sidebar";
-import Footer from "../../components/Footer";
+import Header from "../../components/admin/Header";
+import Sidebar from "../../components/admin/Sidebar";
+import Footer from "../../components/admin/Footer";
 
-const dashboard = () => {
+const plugins = () => {
   return (
     <section className="dFlex">
       {/*start here sidebar*/}
@@ -14,7 +14,7 @@ const dashboard = () => {
       <section className="w100">
         {/*start here header*/}
         <article>
-          <Header />
+          <Header name="Plugins" />
         </article>
         {/*end here header*/}
 
@@ -28,4 +28,4 @@ const dashboard = () => {
     </section>
   );
 };
-export default dashboard;
+export default plugins;

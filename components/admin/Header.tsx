@@ -1,12 +1,12 @@
 import React from "react";
-import "../public/css/header.css"
-function Header() {
+import "../../public/css/header.css"
+function Header(props: { name: string}) {
     return (
         <header className="bg-color-ffffff w100">
             <div className="container">
              <div className="headerSection dFlex">   
             <div className="headerpayment-box w100">
-                <p>Payments</p>
+                <p>{props.name}</p>
                 <a href="#"><img src="../../../img/icon/help.png"/>How it works</a>
             </div>
             <div className="headerSearch w100">

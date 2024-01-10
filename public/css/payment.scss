@@ -1,0 +1,192 @@
+@import "./specific";
+.overviewSection {
+    justify-content: space-between;
+    padding-top: 20px;
+
+    select {
+        height: 36px;
+        border-radius: 4px;
+        border: 1px solid #d9d9d9;
+        background-color: #ffffff;
+        font-size: 16px;
+        padding: 5px 15px;
+        outline: none;
+        box-shadow: 0 0 0;
+        &:hover {
+            border: 1px solid #d9d9d9;
+        }
+        &:focus {
+            border: 1px solid #d9d9d9;
+        }
+    }
+}
+.orderAmountReceived {
+    gap: 20px;
+    width: 100%;
+    margin-top: 24px;
+    .orderAmountReceivedBox {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+        border-radius: 8px;
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: normal;
+            color: #1a181e;
+        }
+        h3 {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 38px;
+            color: #1a181e;
+        }
+    }
+}
+.transactionMonth {
+    margin: 32px 0px 20px;
+    ul {
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        li {
+            &::after {
+                content: "";
+                height: 80%;
+                width: 1.5px;
+                background-color: #1a181e;
+                position: absolute;
+                right: -7px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.transactionTable {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.transactionTablesearchsort {
+    display: flex;
+    justify-content: space-between;
+    .transactionTableSearch {
+        form {
+            position: relative;
+            input {
+                padding: 10px 16px 10px 35px;
+                border: 1px solid #d9d9d9;
+                color: #1a181e;
+                border-radius: 4px;
+                &::placeholder {
+                    color: #999999;
+                }
+            }
+            img {
+                position: absolute;
+                left: 16px;
+                top: 12px;
+            }
+        }
+    }
+    .transactionTableSorting {
+        display: flex;
+        gap: 12px;
+        .transactionTableSortingBox {
+            border: 1px solid #d9d9d9;
+            display: flex;
+            padding: 6px 12px;
+            border-radius: 4px;
+            align-items: center;
+            cursor: pointer;
+            p {
+                font-size: 16px;
+                margin-right: 12px;
+            }
+            img {
+                height: 20px;
+            }
+        }
+    }
+}
+.transactionTableData {
+    margin-top: 12px;
+    table {
+        border-collapse: collapse;
+        thead {
+            background-color: #f2f2f2;
+            tr {
+                th {
+                    border: 1px solid #dddddd;
+                    padding: 10px 12px;
+                    border-right: 0;
+                    border-left: 0;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 20px;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    border: 1px solid #dddddd;
+                    color: #1a181e;
+                    border-right: 0;
+                    border-left: 0;
+                    padding: 10px 12px;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 20px;
+                    a {
+                        color: #146eb4;
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tablePagination{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    .tablepaginationBtn{
+        display: flex;
+        gap: 10px;
+        button{
+            cursor: pointer;
+            padding: 6px 10px;
+            background-color: transparent;
+            border:none;
+            border-radius: 4px;
+            &.active{
+                background-color: #146EB4;
+                color: #ffffff;
+                border:none;
+            }
+            &:hover{
+                background-color: #146EB4;
+                color: #ffffff;
+                border:none;
+            }
+        }
+    }
+}

@@ -12,15 +12,15 @@
 }
 
 .text-color-008089 {
-  color: #146EB4;
+  color: #146eb4;
 }
 
 .text-color-1E2640 {
-  color: #1E2640;
+  color: #1e2640;
 }
 
-.text-color-D9D9D9 {
-  color: #D9D9D9;
+.text-color-FAFAFA {
+  color: #fafafa;
 }
 
 .bg-color-ffffff {
@@ -28,15 +28,15 @@
 }
 
 .bg-color-008089 {
-  background-color: #146EB4;
+  background-color: #146eb4;
 }
 
 .bg-color-1E2640 {
-  background-color: #1E2640;
+  background-color: #1e2640;
 }
 
-.bg-color-D9D9D9 {
-  background-color: #D9D9D9;
+.bg-color-FAFAFA {
+  background-color: #fafafa;
 }
 
 /*end here color theme*/
@@ -65,17 +65,81 @@
 
 /*end here padding css*/
 /*Start here width css*/
+.w10 {
+  width: 10%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w60 {
+  width: 60%;
+}
+
 .w100 {
   width: 100%;
 }
 
 /*End here width css*/
+/*Start here text align*/
+.textRight {
+  text-align: right;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.paginationBorder {
+  border: 1px solid #D9D9D9 !important;
+}
+
+/*End here text align*/
 /*start here container css*/
 .container {
   padding: 12px 32px;
 }
 
 /*end here container css*/
+/*Start here heading*/
+.primaryheading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #1a181e;
+}
+
+/*End here heading css*/
+/*Start here form css*/
+input:focus {
+  border: 1px solid #d9d9d9;
+  outline: none;
+  box-shadow: 0 0 0;
+}
+input:hover {
+  border: 1px solid #d9d9d9;
+  outline: none;
+  box-shadow: 0 0 0;
+}
+
+/*End here form css*/
 header {
   border-bottom: 1px solid #D9D9D9;
 }
