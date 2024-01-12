@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/admin/Header";
 import Sidebar from "../../components/admin/Sidebar";
 import Footer from "../../components/admin/Footer";
-import "../../public/css/payment.css";
+import "../../public/css/admin/payment.css";
 
 
 const payments = () => {
@@ -21,7 +21,7 @@ const payments = () => {
         {/*end here header*/}
 {/***********************************************Start here main section***********************************************/}
 <section className="bg-color-FAFAFA">
-  <div className="container">
+  <div className="containerFluid">
   <div className="overviewSection dFlex">
     <h2 className="primaryheading">Overview</h2>
     <select>

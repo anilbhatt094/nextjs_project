@@ -1,19 +1,19 @@
 import React from "react";
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import "../../public/css/sidebar.css";
+import "../../public/css/admin/sidebar.css";
 function Sidebar() {
     
         const router = useRouter();
        
 
   return (
-    <aside className="bg-color-1E2640 px10 py16 sidebarSec">
+    <aside className="bg-thrimary-color px10 py15 sidebarSec">
       <div className="logo-sec dFlex alignItemCenter">
         <img src="https://s3-alpha-sig.figma.com/img/18ef/52d9/1494ed3109e53ab9db09579cd5d8839e?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hbXTfDpbx17Dm1UyWrCahHzqo902mog-y7REyL1EVX~ssIEzwHiEcj6MiIHeiOkbDRFcMpt3V-MvddqZyRBHDd-J3LkmTahxCv-UGtnU09Z3J2BfloJvJ7n8-My8RcF0WYqZ6UDqdBSium9I8xL4YyFvx4xreX-agyTnc8DLipLOn6ZANnuZqbZvpSsvyo6nPQr02YzgWu2BYAX~IzuUpJyPWDgjMwbgfHvQm7gpqsVVRXVoDqHJITXGmx4iYGsyfrawR5P-RLJ4ZNnwLYic-E7LCK2GbM-tOGgZf5OIKoUZwQMm35-HaH8YZ-MFzxSXKu~EwjGP9buXyfGZwoPdMg__" />
         <div className="logoText positionRelative w100">
-          <p className="text-color-ffffff">Company Name</p>
-          <a href="" className="text-color-ffffff">
+          <p className="text-formary-color">Company Name</p>
+          <a href="" className="text-formary-color">
             Visit Store
           </a>
           <svg
@@ -108,7 +108,7 @@ function Sidebar() {
       </nav>
       <div className="walletBox dFlex alignItemsCenter">
         <img src="../../../img/icon/wallet.png" />
-        <p className="text-color-ffffff">
+        <p className="text-formary-color">
           Available credits <span>222.10</span>
         </p>
       </div>

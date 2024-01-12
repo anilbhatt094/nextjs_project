@@ -1,9 +1,9 @@
 import React from "react";
-import "../../public/css/admin/header.css"
+import "../../public/css/header.css"
 function Header(props: { name: string}) {
     return (
         <header className="bg-color-ffffff w100">
-            <div className="containerFluid">
+            <div className="container">
              <div className="headerSection dFlex">   
             <div className="headerpayment-box w100">
                 <p>{props.name}</p>

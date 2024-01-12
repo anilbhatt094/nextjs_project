@@ -1,0 +1,131 @@
+@import "../specific";
+.searchWidget{
+    position: absolute;
+    bottom:50px;
+    width: 1150px;
+    
+    .searchWidgetTab{
+        ul{
+            li{
+                color: #9599a0;
+                padding-left: 15px;
+                cursor: pointer;
+                &.active{
+                    &:after{
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 6px;
+                        background-color: #00808a;
+                        border-radius: 50%;
+
+
+                    }
+                   
+                    color: #1e2640;
+                }
+                &:hover{
+                    &:after{
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 6px;
+                        background-color: #00808a;
+                        border-radius: 50%;
+                    }
+                    color: #1e2640;   
+                }
+            }
+        }
+    }
+}
+.searchWidgetForm{
+    .searchWidgetinput{
+        input{
+            border:0;
+            
+            &::placeholder{
+                color: #1e2640;
+            }
+            &.active{
+                &::placeholder{
+                    color: #b3b8c2;
+                } 
+            }
+        }
+        p{
+            position: absolute;
+            bottom:18px;
+            left: 20px;
+        }
+    }
+    .searchWidgetinput{
+        button{
+        width: 64px;
+        height: 64px;
+        border:none;
+        line-height: 4px;
+        cursor: pointer;
+        svg{
+            height: 30px;
+        }
+    }
+}
+}
+
+.flightSearchWidgetHeader{
+    ul{
+        li{
+            border:1px solid #b3b8c2;
+            cursor: pointer;
+            &.active{
+                background-color: #1e2640;
+                color: #ffffff;
+                border-color: #1e2640;
+            }            
+        }
+        &::after{
+            content: "";
+            background-color: #b3b8c2;
+            position: absolute;
+            right: -10px;
+            width: 1px;
+            height: 25px;
+            top: 8px;
+        }
+        &:last-child{
+            &::after{
+                display: none;
+            }
+        }
+        &.businessClassGuest{
+            li{
+                .arrow{
+                    &.down{
+                        top: 11px;
+                        right: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bgBlugColor{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: auto;
+    bottom: 200px;
+    margin: auto;
+    filter: blur(2.5rem);
+    background: rgb(0,128,138);
+background: linear-gradient(90deg, rgba(0,128,138,1) 0%, rgba(184,26,82,1) 100%);
+    left: 150px;
+    opacity: 0.2;
+    z-index: -2;
+}
