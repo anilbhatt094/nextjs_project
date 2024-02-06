@@ -750,6 +750,48 @@ $fimary-font: 52px;
 
 }
 
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb35 {
+    margin-bottom: 35px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb45 {
+    margin-bottom: 45px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+
+}
+
 /*end here margin css*/
 
 /*Start here width css*/
@@ -840,6 +882,8 @@ $fimary-font: 52px;
 
 /*Start here form css*/
 input {
+    height: 40px;
+    border:1px solid #d9d9d9;
     &:focus {
         border: 1px solid #d9d9d9;
         outline: none;
@@ -849,6 +893,72 @@ input {
         border: 1px solid #d9d9d9;
         outline: none;
         box-shadow: 0 0 0;
+    }
+}
+select{
+    height: 40px;
+    border:1px solid #d9d9d9;
+    &:focus {
+        border: 1px solid #d9d9d9;
+        outline: none;
+        box-shadow: 0 0 0;
+    }
+    &:hover {
+        border: 1px solid #d9d9d9;
+        outline: none;
+        box-shadow: 0 0 0;
+    }
+   
+}
+
+textarea {
+    
+    border:1px solid #d9d9d9;
+    &:focus {
+        border: 1px solid #d9d9d9;
+        outline: none;
+        box-shadow: 0 0 0;
+    }
+    &:hover {
+        border: 1px solid #d9d9d9;
+        outline: none;
+        box-shadow: 0 0 0;
+    }
+}
+
+.wdInput{
+    .arrow{
+        &.down{
+            top: 10px;
+            right: 10px;
+        }
+    }
+    &.active{
+        .selectList{
+            display: block;
+        }
+    }
+
+}
+.selectList{
+    position: absolute;
+    top: 42px;
+    z-index: 1;
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid #ddd;
+   
+    ul{
+        li{
+            color: #1a181e;
+            font-size: 14px;
+            border-bottom: 1px solid #dddddd;
+            padding: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: #dddddd;
+            }
+        }
     }
 }
 /*End here form css*/
@@ -916,6 +1026,9 @@ input {
 /*End here arrow css*/
 
 /*Start here border css*/
+.borderall{
+    border: 1px solid #e5e7eb;
+}
 .borderTop{
     border-top: 1px solid #e5e7eb;
 }
@@ -965,4 +1078,70 @@ input {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 /*End here box shadow*/
+
+/*Start here table css*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    tr{
+        &:nth-child(even){
+            background-color: #f5f5f5;
+        }
+    }
+    td{
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+    th{
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+}
+/*End here table css*/
+
+
+/*Start here admin btn*/
+.defaulbtn{
+    width: 100px;
+    background-color: #ffffff;
+    height: 40px;
+    color: #1a181e;
+    font-size: 16px;
+    border:1px solid #1a181e;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.primarybtn{
+    width: 100px;
+    background-color: #1a181e;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    border:1px solid #1a181e;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dangerbtn{
+    width: 100px;
+    background-color: #b81a52;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    border:1px solid #b81a52;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*End here admin btn*/
+
+/*start here grid section*/
+.gridTwolarge-section{
+    display: grid;
+  grid-template-columns:3fr 1fr;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+/*end here grid section*/
 

@@ -1,1 +1,20 @@
 @import "../specific";
+
+/*Start here dashboard*/
+.Topbartext{
+    input{
+        height: 50px;
+        
+    }
+    button{
+        position: absolute;
+        top: 0px;
+        right: 0;
+        height: 100%;
+        border:none;
+        width: 100px;
+        cursor: pointer;
+    }
+}
+/*End here dashboard*/
+

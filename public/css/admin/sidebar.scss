@@ -34,8 +34,19 @@
         padding-left: 0;
         list-style: none;
         li{
-            padding: 10px 16px;
-            img{
+            padding: 10px 16px 10px 30px;
+            position: relative;
+            &::after{
+                content: "";
+                width: 8px;
+                height: 8px;
+                position: absolute;
+                left: 10px;
+                top: 14px;
+                border:1px solid #ffffff;
+                border-radius: 50%;
+            }
+            svg{
                 margin-right: 12px;
             }
             a{
@@ -48,10 +59,16 @@
             &:hover{
                 background: rgba(255, 255, 255, 0.10);
                 border-radius: 4px;
+                &::after{
+                    background-color: #ffffff;
+                }
             }
             &.active{
                 background: rgba(255, 255, 255, 0.10);
                 border-radius: 4px; 
+                &::after{
+                    background-color: #ffffff;
+                }
             }
         }
     }

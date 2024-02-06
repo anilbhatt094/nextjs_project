@@ -1,6 +1,8 @@
 import React from "react";
 import "../../public/css/admin/header.css"
+import { useRouter } from "next/router";
 function Header(props: { name: string}) {
+    const router = useRouter();
     return (
         <header className="bg-color-ffffff w100">
             <div className="containerFluid">

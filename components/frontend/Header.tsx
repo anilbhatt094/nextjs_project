@@ -6,13 +6,13 @@ function Header() {
     return (
         <header className="w100">
           <div className="topbar bg-primary-color textCenter py10">
-            <p className="text-seconday-color fontweight400 seconday-font">Welcome to My Holiday | Live to discover</p>
+            <p className="text-seconday-color fontweight400 seconday-font">Welcome to Logo | Slogan Line</p>
           </div>
           <div className="mainHeader borderBottom">
             <div className="container">
               <div className="dFlex w100 alignItemCenter justifyContentBetween">
             <div className="headerLogo">
-            <img src="https://c.myholidays.com/cms/images/theme/myholiday_logo.svg"/>  
+            <img src="../../../img/frontend/logo.png"/>  
             </div>
             <div className="menuNavbar dFlex gap50">
               <ul className="dFlex gap35">
